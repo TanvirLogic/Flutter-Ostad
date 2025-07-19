@@ -1,4 +1,6 @@
-import 'package:app/practice1.dart';
+import 'package:app/list_view.dart';
+import 'package:app/week_8_class2.dart';
+
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -6,6 +8,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: 'Module 8', home: Practice1());
+    return MaterialApp(title: 'Module 8', home: Week8Class2());
   }
 }
